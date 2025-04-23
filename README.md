@@ -11,7 +11,7 @@ project was for my Senior Project/Portfolio class. ​ This research examines ke
 - 
 - 
 
-## Part I: Clean Data, Create Unique PlayerIDs, and Merge Datasets
+## Part I: Clean Datasets, and Merge Datasets
 
 
 ## Part II: Exploratory Data Analysis
