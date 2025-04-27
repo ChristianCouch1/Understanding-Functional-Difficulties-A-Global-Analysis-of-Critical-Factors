@@ -34,12 +34,11 @@
 
 </details>
 
-# Overview
-​This research examines key factors that predict whether individuals from different countries experience functional difficulties. It focuses on the type of ANSR (Adjusted Net Attendance Rate), foundational reading test scores, foundational numeracy scores, and sex. This study​ employs logistic regression and a Random Forest classifier on a dataset from UNICEF's Global  Database on Education for Children with Disabilities. The approach aims to identify differences between individuals with and without functional difficulties and assess whether a significant gap exists in these skills.​
-
-
 # Background
-project was for my Senior Project/Portfolio class. ​ This research examines key factors that predict whether individuals from different countries experience functional difficulties.
+This project was completed for my Senior Project/Portfolio class. It focuses on understanding the key factors that predict whether individuals from different countries experience functional difficulties. Using data from UNICEF's Global Database on Education for Children with Disabilities, the study explores how education and demographic factors may relate to functional challenges.
+
+# Overview
+This research investigates the key predictors of functional difficulties among individuals across different countries. Specifically, it analyzes the impact of Adjusted Net Attendance Rate (ANSR), foundational reading test scores, foundational numeracy scores, and sex. Logistic regression and a Random Forest classifier are applied to the UNICEF dataset to distinguish between individuals with and without functional difficulties and to evaluate the extent of any skill gaps.
 
 # Goals
 - 
