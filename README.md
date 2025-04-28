@@ -164,7 +164,6 @@ Best Fold 2 CV Score: 0.989
 - ROC AUC Score: .89
 ## Part IV: Visualization Tools
 ### Power BI
--
 [DSC Project Senior.pdf](https://github.com/user-attachments/files/19936804/DSC.Project.Senior.pdf)
 
 
