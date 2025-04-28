@@ -51,7 +51,6 @@ This research investigates the key predictors of functional difficulties among i
 - The Data was Obtain from UNICEF website
 - It was an Excel file with multiple sheets, including data on attendance rates, foundational reading scores, foundational numeracy scores, and out-of-school rates.
 - Put the different Files into Power BI and transform the data removing rows and changing the table headings to make them uniform.
--
 ### Importing Packages and Loading Data Into Python
 Below are the packages used for this project:
 ```
@@ -84,8 +83,32 @@ from sklearn.ensemble import RandomForestClassifier
 ```
 
 ### Fixing Attendance Rate Dataset in Python
--
--
+-Reformatted the dataset by restructuring some columns into 'With' and 'Without' rows, indicating whether an entry has functional differences or not.
+```
+def create_anar_summary_dataframe(df):
+
+    # Filter for "Without"
+    df_without = df.dropna(subset=['ANAR Point Estimate Without'])
+    df_without = df_without.rename(columns={
+        'ANAR Point Estimate Without': 'Point Estimate',
+        'ANAR Upper Limit Without': 'Upper Limit',
+        'ANAR Lower Limit Without': 'Lower Limit'
+    })
+    df_without['Functional Difficulties'] = 'Without'
+
+    # Filter for "With"
+    df_with = df.dropna(subset=['ANAR Point Estimate With Functional Difficulties '])
+    df_with = df_with.rename(columns={
+        'ANAR Point Estimate With Functional Difficulties ': 'Point Estimate',
+        'ANAR Upper Limit With Functional Difficulties': 'Upper Limit',
+        'ANAR Lower Limit With Functional Difficulties Limit': 'Lower Limit'
+    })
+    df_with['Functional Difficulties'] = 'With'
+
+    # combineing the Datasets
+    df_combined = pd.concat([df_without, df_with], ignore_index=True)
+```
+- Finished removing null values and excluded countries like Belarus that do not accurately report their numbers, in order to reduce the likelihood of unreliable or inaccurate results.
 
 ## Part II: Machine Learning / Statistical Modeling for Attendance Rate Dataset
 
