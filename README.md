@@ -53,8 +53,35 @@ This research investigates the key predictors of functional difficulties among i
 - Put the different Files into Power BI and transform the data removing rows and changing the table headings to make them uniform.
 -
 ### Importing Packages and Loading Data Into Python
--
--
+Below are the packages used for this project:
+```
+import numpy as np
+import seaborn as sns
+from matplotlib import pyplot as plt
+import pandas as pd
+from matplotlib.pyplot import subplots
+import statsmodels.api as sm
+from sklearn.model_selection import cross_val_score
+from ISLP.models import (ModelSpec as MS,
+                         summarize,
+                         poly)
+from sklearn.discriminant_analysis import \
+     (LinearDiscriminantAnalysis as LDA,
+      QuadraticDiscriminantAnalysis as QDA)
+from ISLP import confusion_table
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix, classification_report
+import pandas as pd
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import roc_curve, auc
+from sklearn.model_selection import cross_val_predict, StratifiedKFold
+
+from sklearn.metrics import roc_auc_score
+from ISLP.models import sklearn_sm
+from sklearn.ensemble import RandomForestClassifier
+```
 
 ### Fixing Attendance Rate Dataset in Python
 -
