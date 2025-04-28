@@ -15,7 +15,6 @@
 - [ROC Curve for Logistic Regression (Attendance Rate)](#roc-curve-for-logistic-regression-attendance-rate)
 - [Cross Validation for Logistic Regression (Attendance Rate)](#cross-validation-for-logistic-regression-attendance-rate)
 - [Random Forest Classification (Attendance Rate)](#random-forest-classification-attendance-rate)
-- [ROC Curve for Random Forest (Attendance Rate)](#roc-curve-for-random-forest-attendance-rate)
 
 ## Part III: Combining Multiple Datasets and Cleaning Them
 - [Merging the Datasets in Power BI](#merging-the-datasets-in-power-bi)
@@ -131,10 +130,6 @@ def create_anar_summary_dataframe(df):
 - Trained a Random Forest Classifier using 70% training and 30% testing split
 - Accuracy: Insert Random Forest accuracy here
 - Feature Importance: Insert key features here (optional)
-### ROC Curve for Random Forest (Attendance Rate)
-- Plotted the ROC curve for the random forest model.
--  PUT PICTURE HERE FOR THE ROC CURVE
-- ROC AUC Score: Insert Random Forest AUC score here
 ## Part III: Combining Multiple Datasets and Cleaning Them
 ### Merging the Datasets in Power BI
 - Merging the data into one datset to have it all together and combine them by having the country and catgory as a comine key. 
