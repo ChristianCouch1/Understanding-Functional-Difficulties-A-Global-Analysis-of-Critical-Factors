@@ -1,5 +1,5 @@
 <details>
-<summary><strong> 📌 Table of Contents</strong></summary>
+<summary><strong> Table of Contents</strong></summary>
 
 - [Overview](#overview)
 - [Background](#background)
@@ -115,9 +115,10 @@ def create_anar_summary_dataframe(df):
 ### Logistic Regression (Attendance Rate)
 - Used one-hot encoding for gender categories ('Male', 'Female').
 - Applied a Logistic Regression model to classify entries into "With" or "Without" functional difficulties.
-- Evaluated model performance using accuracy, confusion matrix, and classification report.
-- PUT PICTURE HERE FOR THE CONFUSTION MATRIX
-- Accuracy: Insert Logistic Regression accuracy here
+- Evaluated model performance using accuracy and confusion matrix
+<img width="460" alt="Screenshot 2025-04-28 at 4 04 54 AM" src="https://github.com/user-attachments/assets/a442f06e-775c-4300-9420-2441c98892a9" />
+
+- Accuracy: .78
 ### ROC Curve for Logistic Regression (Attendance Rate)
 - Plotted the ROC curve for the Logistic Regression model.
 ![ROC Curve Log REF ANAR](https://github.com/user-attachments/assets/7b74eb31-da64-416d-b321-66c5ff07d50c)
@@ -128,7 +129,7 @@ def create_anar_summary_dataframe(df):
 - Best Fold 2 CV Score: 0.925
 ### Random Forest Classification (Attendance Rate)
 - Trained a Random Forest Classifier using 70% training and 30% testing split
-- Accuracy: Insert Random Forest accuracy here
+- Accuracy: .59
 ## Part III: Combining Multiple Datasets and Cleaning Them
 ### Merging the Datasets in Power BI
 - Merging the data into one datset to have it all together and combine them by having the country and catgory as a comine key. 
@@ -143,9 +144,10 @@ def create_anar_summary_dataframe(df):
 ## Part IV: Machine Learning / Statistical Modeling for Merged Dataset
 ### Logistic Regression (Merged Dataset)
 - Applied a Logistic Regression model to classify entries into "With" or "Without" functional difficulties.
-- Evaluated model performance using accuracy, confusion matrix, and classification report.
-- PUT PICTURE HERE FOR THE CONFUSTION MATRIX
-- Accuracy: Insert Logistic Regression accuracy here
+- Evaluated model performance using accuracy and confusion matrix
+<img width="460" alt="Screenshot 2025-04-28 at 4 05 16 AM" src="https://github.com/user-attachments/assets/cbc6a052-ddb4-4494-9aa9-1732abcfe5f7" />
+
+- Accuracy: .85
 ### ROC Curve for Logistic Regression (Merged Dataset)
 - Plotted the ROC curve for the Logistic Regression model.
 ![ROC Curve for Logistic Regression for Merge](https://github.com/user-attachments/assets/f6845aec-b395-45b8-af29-9944e1a659d9)
@@ -156,7 +158,7 @@ def create_anar_summary_dataframe(df):
 Best Fold 2 CV Score: 0.989
 ### Random Forest Classification (Merged Dataset)
 - Trained a Random Forest Classifier using 70% training and 30% testing split
-- Accuracy: Insert Random Forest accuracy here
+- Accuracy: .86
 ![Feature Impordance for Random Forest](https://github.com/user-attachments/assets/004f379c-bba6-4dfe-bc91-7550d0579496)
 ### ROC Curve for Random Forest (Merged Dataset)
 - Plotted the ROC curve for the random forest model.
