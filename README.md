@@ -41,15 +41,16 @@ This project was completed for my Senior Project/Portfolio class. It focuses on 
 This research investigates the key predictors of functional difficulties among individuals across different countries. Specifically, it analyzes the impact of Adjusted Net Attendance Rate (ANSR), foundational reading test scores, foundational numeracy scores, and sex. Logistic regression and a Random Forest classifier are applied to the UNICEF dataset to distinguish between individuals with and without functional difficulties and to evaluate the extent of any skill gaps.
 
 # Goals
-- 
-- 
-- 
-- 
+- Determine which educational and demographic factors (such as ANSR, foundational reading and numeracy skills, and sex) are most strongly associated with functional difficulties
+- Build and compare logistic regression and Random Forest models to classify individuals with and without functional difficulties
+- Develop a Random Forest model to further improve classification accuracy and feature importance analysis
+- Evaluate model performance using ROC curves and cross-validation techniques
 
 ## Part I: Clean Datasets, and Merge Datasets
 ### Transform Data in Power BI
--
--
+- The Data was Obtain from UNICEF website
+- It was an Excel file with multiple sheets, including data on attendance rates, foundational reading scores, foundational numeracy scores, and out-of-school rates.
+- Put the different Files into Power BI and transform the data removing rows and changing the table headings to make them uniform.
 -
 ### Importing Packages and Loading Data Into Python
 -
