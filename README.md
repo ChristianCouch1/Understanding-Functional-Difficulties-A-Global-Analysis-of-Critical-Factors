@@ -120,16 +120,15 @@ def create_anar_summary_dataframe(df):
 - Accuracy: Insert Logistic Regression accuracy here
 ### ROC Curve for Logistic Regression (Attendance Rate)
 - Plotted the ROC curve for the Logistic Regression model.
-- PUT PICTURE HERE FOR THE ROC CURVE
-- ROC AUC Score: Insert ROC AUC score here
+![ROC Curve Log REF ANAR](https://github.com/user-attachments/assets/7b74eb31-da64-416d-b321-66c5ff07d50c)
+- ROC AUC Score: .88
 ### Cross Validation for Logistic Regression (Attendance Rate)
 - Performed 5-fold cross-validation to check model stability and reduce overfitting.
-- PUT PICTURE HERE FOR THE cross validation
-- Average CV Score: Insert average CV score here
+![Cross Val for Log ](https://github.com/user-attachments/assets/2915512f-b5f6-434e-9eae-5b6b573fb273)
+- Best Fold 2 CV Score: 0.925
 ### Random Forest Classification (Attendance Rate)
 - Trained a Random Forest Classifier using 70% training and 30% testing split
 - Accuracy: Insert Random Forest accuracy here
-- Feature Importance: Insert key features here (optional)
 ## Part III: Combining Multiple Datasets and Cleaning Them
 ### Merging the Datasets in Power BI
 - Merging the data into one datset to have it all together and combine them by having the country and catgory as a comine key. 
@@ -148,19 +147,20 @@ def create_anar_summary_dataframe(df):
 ### ROC Curve for Logistic Regression (Merged Dataset)
 - Plotted the ROC curve for the Logistic Regression model.
 - PUT PICTURE HERE FOR THE ROC CURVE
-- ROC AUC Score: Insert ROC AUC score here
+![ROC Curve for Logistic Regression for Merge](https://github.com/user-attachments/assets/f6845aec-b395-45b8-af29-9944e1a659d9)
+- ROC AUC Score: .91
 ### Cross Validation for Logistic Regression (Merged Dataset)
 - Performed 5-fold cross-validation to check model stability and reduce overfitting.
-- PUT PICTURE HERE FOR THE cross validation
-- Average CV Score: Insert average CV score here
+![Cross Validation for Logestic Regresson for Merge](https://github.com/user-attachments/assets/55a9292d-7a2d-436e-924e-01f659e5e89a)
+Best Fold 2 CV Score: 0.989
 ### Random Forest Classification (Merged Dataset)
 - Trained a Random Forest Classifier using 70% training and 30% testing split
 - Accuracy: Insert Random Forest accuracy here
-- Feature Importance: Insert key features here (optional)
+![Feature Impordance for Random Forest](https://github.com/user-attachments/assets/004f379c-bba6-4dfe-bc91-7550d0579496)
 ### ROC Curve for Random Forest (Merged Dataset)
 - Plotted the ROC curve for the random forest model.
--  PUT PICTURE HERE FOR THE ROC CURVE
-- ROC AUC Score: Insert Random Forest AUC score here
+![ROC Curve for Random Forest for Merge](https://github.com/user-attachments/assets/9c72eee0-d393-472d-a712-7c6263ba599f)
+- ROC AUC Score: .89
 ## Part IV: Visualization Tools
 ### Power BI
 - Insert PIC of DASHBORED HERE
