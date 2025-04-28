@@ -133,7 +133,9 @@ def create_anar_summary_dataframe(df):
 ### Merging the Datasets in Power BI
 - Merging the data into one datset to have it all together and combine them by having the country and catgory as a comine key. 
 - Merging the datasets into one by combining them based on a composite key of "Country" and "Category".
-- Insert PIC of Power BI
+
+![Screenshot 2025-04-28 033914 (1)](https://github.com/user-attachments/assets/28516cb7-eeb6-4652-8985-54db611bab61)
+
 ### Importing New Updated Data Into Python
 - Exporting the appended data from power BI
 - Imported all relevant data into Python, creating a single combined dataset that includes foundational reading scores, numeracy scores, attendance rates, and gender (sex) categories ### Cleaning the Merged Dataset In Python
@@ -146,7 +148,6 @@ def create_anar_summary_dataframe(df):
 - Accuracy: Insert Logistic Regression accuracy here
 ### ROC Curve for Logistic Regression (Merged Dataset)
 - Plotted the ROC curve for the Logistic Regression model.
-- PUT PICTURE HERE FOR THE ROC CURVE
 ![ROC Curve for Logistic Regression for Merge](https://github.com/user-attachments/assets/f6845aec-b395-45b8-af29-9944e1a659d9)
 - ROC AUC Score: .91
 ### Cross Validation for Logistic Regression (Merged Dataset)
@@ -163,7 +164,9 @@ Best Fold 2 CV Score: 0.989
 - ROC AUC Score: .89
 ## Part IV: Visualization Tools
 ### Power BI
-- Insert PIC of DASHBORED HERE
+-
+[DSC Project Senior.pdf](https://github.com/user-attachments/files/19936804/DSC.Project.Senior.pdf)
+
 
 
 
