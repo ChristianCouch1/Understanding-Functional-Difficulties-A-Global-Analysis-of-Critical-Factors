@@ -11,28 +11,29 @@
 - [Fixing Attendance Rate Dataset in Python](#fixing-attendance-rate-dataset-in-python)
 
 ## Part II: Machine Learning / Statistical Modeling for Attendance Rate Dataset
-- [Logistic Regression](#logistic-regression)
-- [ROC Curve for Logistic Regression](#roc-curve-for-logistic-regression)
-- [Cross Validation for Logistic Regression](#cross-validation-for-logistic-regression)
-- [Random Forest Classification](#random-forest-classification)
-- [ROC Curve for Random Forest](#roc-curve-for-random-forest)
+- [Logistic Regression (Attendance Rate)](#logistic-regression-attendance-rate)
+- [ROC Curve for Logistic Regression (Attendance Rate)](#roc-curve-for-logistic-regression-attendance-rate)
+- [Cross Validation for Logistic Regression (Attendance Rate)](#cross-validation-for-logistic-regression-attendance-rate)
+- [Random Forest Classification (Attendance Rate)](#random-forest-classification-attendance-rate)
+- [ROC Curve for Random Forest (Attendance Rate)](#roc-curve-for-random-forest-attendance-rate)
 
 ## Part III: Combining Multiple Datasets and Cleaning Them
 - [Merging the Datasets in Power BI](#merging-the-datasets-in-power-bi)
 - [Importing New Updated Data Into Python](#importing-new-updated-data-into-python)
-- [Clean the Merged Dataset In Python](#clean-the-merged-dataset-in-python)
+- [Cleaning the Merged Dataset In Python](#cleaning-the-merged-dataset-in-python)
 
 ## Part IV: Machine Learning / Statistical Modeling for Merged Dataset
-- [Logistic Regression](#logistic-regression-1)
-- [ROC Curve for Logistic Regression](#roc-curve-for-logistic-regression-1)
-- [Cross Validation for Logistic Regression](#cross-validation-for-logistic-regression-1)
-- [Random Forest Classification](#random-forest-classification-1)
-- [ROC Curve for Random Forest](#roc-curve-for-random-forest-1)
+- [Logistic Regression (Merged Dataset)](#logistic-regression-merged-dataset)
+- [ROC Curve for Logistic Regression (Merged Dataset)](#roc-curve-for-logistic-regression-merged-dataset)
+- [Cross Validation for Logistic Regression (Merged Dataset)](#cross-validation-for-logistic-regression-merged-dataset)
+- [Random Forest Classification (Merged Dataset)](#random-forest-classification-merged-dataset)
+- [ROC Curve for Random Forest (Merged Dataset)](#roc-curve-for-random-forest-merged-dataset)
 
 ## Part V: Visualization Tools
 - [Power BI](#power-bi)
 
 </details>
+
 
 # Background
 This project was completed for my Senior Project/Portfolio class. It focuses on understanding the key factors that predict whether individuals from different countries experience functional difficulties. Using data from UNICEF's Global Database on Education for Children with Disabilities, the study explores how education and demographic factors may relate to functional challenges.
@@ -112,51 +113,62 @@ def create_anar_summary_dataframe(df):
 
 ## Part II: Machine Learning / Statistical Modeling for Attendance Rate Dataset
 
-### Logistic Regression
--
--
-### ROC Curve for Logistic Regression
--
--
-### Cross Validation for Logistic Regression
--
--
-### Random Forest Classifaction 
--
--
-### ROC Curve for Random Forest
--
--
+### Logistic Regression (Attendance Rate)
+- Used one-hot encoding for gender categories ('Male', 'Female').
+- Applied a Logistic Regression model to classify entries into "With" or "Without" functional difficulties.
+- Evaluated model performance using accuracy, confusion matrix, and classification report.
+- PUT PICTURE HERE FOR THE CONFUSTION MATRIX
+- Accuracy: Insert Logistic Regression accuracy here
+### ROC Curve for Logistic Regression (Attendance Rate)
+- Plotted the ROC curve for the Logistic Regression model.
+- PUT PICTURE HERE FOR THE ROC CURVE
+- ROC AUC Score: Insert ROC AUC score here
+### Cross Validation for Logistic Regression (Attendance Rate)
+- Performed 5-fold cross-validation to check model stability and reduce overfitting.
+- PUT PICTURE HERE FOR THE cross validation
+- Average CV Score: Insert average CV score here
+### Random Forest Classification (Attendance Rate)
+- Trained a Random Forest Classifier using 70% training and 30% testing split
+- Accuracy: Insert Random Forest accuracy here
+- Feature Importance: Insert key features here (optional)
+### ROC Curve for Random Forest (Attendance Rate)
+- Plotted the ROC curve for the random forest model.
+-  PUT PICTURE HERE FOR THE ROC CURVE
+- ROC AUC Score: Insert Random Forest AUC score here
 ## Part III: Combining Multiple Datasets and Cleaning Them
 ### Merging the Datasets in Power BI
--
--
-
-### Importing New updated Data Into Python
--
--
-### Clean the Merged Dataset Into Python
--
--
-## Part IV:  Machine Learning / Statistical Modeling for Merged Dataset
-### Logistic Regression
--
--
-### ROC Curve for Logistic Regression
--
--
-### Cross Validation for Logistic Regression
--
--
-### Random Forest Classifaction 
--
--
-### ROC Curve for Random Forest
--
--
+- Merging the data into one datset to have it all together and combine them by having the country and catgory as a comine key. 
+- Merging the datasets into one by combining them based on a composite key of "Country" and "Category".
+- Insert PIC of Power BI
+### Importing New Updated Data Into Python
+- Exporting the appended data from power BI
+- Imported all relevant data into Python, creating a single combined dataset that includes foundational reading scores, numeracy scores, attendance rates, and gender (sex) categories ### Cleaning the Merged Dataset In Python
+- Performed the same process as with the previous data, formatting the dataset by restructuring certain columns into 'With' and 'Without' rows to indicate whether an entry has functional difficulties or not.
+## Part IV: Machine Learning / Statistical Modeling for Merged Dataset
+### Logistic Regression (Merged Dataset)
+- Applied a Logistic Regression model to classify entries into "With" or "Without" functional difficulties.
+- Evaluated model performance using accuracy, confusion matrix, and classification report.
+- PUT PICTURE HERE FOR THE CONFUSTION MATRIX
+- Accuracy: Insert Logistic Regression accuracy here
+### ROC Curve for Logistic Regression (Merged Dataset)
+- Plotted the ROC curve for the Logistic Regression model.
+- PUT PICTURE HERE FOR THE ROC CURVE
+- ROC AUC Score: Insert ROC AUC score here
+### Cross Validation for Logistic Regression (Merged Dataset)
+- Performed 5-fold cross-validation to check model stability and reduce overfitting.
+- PUT PICTURE HERE FOR THE cross validation
+- Average CV Score: Insert average CV score here
+### Random Forest Classification (Merged Dataset)
+- Trained a Random Forest Classifier using 70% training and 30% testing split
+- Accuracy: Insert Random Forest accuracy here
+- Feature Importance: Insert key features here (optional)
+### ROC Curve for Random Forest (Merged Dataset)
+- Plotted the ROC curve for the random forest model.
+-  PUT PICTURE HERE FOR THE ROC CURVE
+- ROC AUC Score: Insert Random Forest AUC score here
 ## Part IV: Visualization Tools
 ### Power BI
-- -
+- Insert PIC of DASHBORED HERE
 
 
 
